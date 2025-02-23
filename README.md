@@ -26,3 +26,39 @@ Project Name -  Gen AI in insurance under writing: Enhancing the risk assessmnet
 6. codeflow
 7. code.
 8. 
+
+
+Install poetry:
+  Open a PowerShell or Command Prompt.
+  Run the following command to install poetry
+
+
+
+      (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python 
+
+
+
+
+Verify Installation:
+
+Run the following command to verify poetry is installed correctly:
+
+
+      poetry --version
+
+
+
+      
+
+----make file use-----------
+
+To set up the environment, run:
+  make setup
+To start the application, run:
+  make start
+To build the Docker image, run:
+  make docker-build
+To start the Docker containers, run:
+  make docker-up
+
+----------------------------------------------
